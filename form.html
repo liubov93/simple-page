@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Form Sample</title>
+    </head>
+    <body>
+        <header>
+            <h2>Опитування</h2>
+            <nav>
+                <a href="index.html">Index</a>
+            </nav>
+        </header>
+        <main>
+            <form method="POST" action="https://formspree.io/xrgbearn">
+                <h3>Автор картини "Поклоніння волхвів"</h3>
+                <label>
+                    <input type="radio" name="autor" value="Сімоне Мартіне">Сімоне Мартіне
+            
+                </label>
+                <label>
+                    <input type="radio" name="autor" value="Апеллес">Апеллес
+            
+                </label>
+                <label>
+                    <input type="radio" name="autor" value="Леонардо да Вінчі">Леонардо да Вінчі
+            
+                </label>
+                <h3>Твори Леонардо да Вінчі</h3>
+                <label>
+                    <input type="radio" name="work" value="Мона Ліза">Мона Ліза
+            
+                </label>
+                <label>
+                    <input type="radio" name="work" value="Пані з Горностаєм">Пані з Горностаєм    
+            
+                </label>
+                <label>
+                    <input type="radio" name="work" value="Битва при Кашині">"Битва при Кашині"
+            
+                </label>
+                <h3>Портрет Освольта Креля написав</h3>
+                <label>
+                    <input type="radio" name="autors" value="Сімоне Мартіне">Сімоне Мартіне 
+            
+                </label>
+                <label>
+                    <input type="radio" name="autors" value="Мікеланджело">Мікеланджело 
+            
+                </label>
+                <label>
+                    <input type="radio" name="autors" value="Альбрехт Дюрер">Альбрехт Дюрер
+            
+                </label>
+                <br>
+                <h4>your data:</h4>
+                <label>
+                    Name:
+                <input type="text" placeholder="Name" name="name" required>
+                </label>
+                <label>
+                    Email:
+                <input type="email" placeholder="Email" name="email" required>
+                </label>
+                <br>
+                <br>
+                <label>
+                    Comments:
+                <textarea name="comments"></textarea>
+                </label>
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+</html>
